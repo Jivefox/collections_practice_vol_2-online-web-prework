@@ -24,9 +24,7 @@ def merge_data(keys, data)
 end
 
 def find_cool(hash)
-  hash.select do |element| element.values
-  if element.values == "cool"
-    puts 
+  hash.select {|element| element.values == "cool"}
   
 end
 
