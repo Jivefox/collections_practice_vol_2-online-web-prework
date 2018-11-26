@@ -24,7 +24,10 @@ def merge_data(keys, data)
 end
 
 def find_cool(hash)
-  hash.select {|element| element.}
+  hash.select do |element| element.values
+  if element.values == "cool"
+    puts 
+  
 end
 
 def organize_schools(schools)
