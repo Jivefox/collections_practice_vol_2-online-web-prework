@@ -23,8 +23,8 @@ def merge_data(keys, data)
   
 end
 
-def find_cool(array)
-  array.select {|element| element.include?('cool')}
+def find_cool(hash)
+  hash.select {|element| element.}
 end
 
 def organize_schools(schools)
